@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">PremiumDolls</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filter-section">
+        <h2>Filter Products</h2>
+        <form id="filter-form">
+            <label for="skin-color">Skin Color:</label>
+            <select id="skin-color">
+                <option value="all">All</option>
+                <option value="light">Light</option>
+                <option value="medium">Medium</option>
+                <option value="dark">Dark</option>
+            </select>
+
+            <label for="type">Type:</label>
+            <select id="type">
+                <option value="all">All</option>
+                <option value="classic">Classic</option>
+                <option value="modern">Modern</option>
+                <option value="deluxe">Deluxe</option>
+            </select>
+
+            <button type="button" id="apply-filters">Apply Filters</button>
+        </form>
+    </div>
+
+    <!-- Products Section -->
+    <div class="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <!-- Product Card 1 -->
+            <div class="product-card" data-skin="light" data-type="classic">
+                <img src="../Sex dolls pics/d1.webp" alt="Product 1">
+                <h3>Classic Model</h3>
+                <p>Elegance redefined with intricate detail.</p>
+                <button class="btn buy-now">Buy Now</button>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="product-card" data-skin="light" data-type="modern">
+                <img src="../Sex dolls pics/d2.webp" alt="Product 2">
+                <h3>Modern Beauty</h3>
+                <p>Designed for comfort and realism.</p>
+                <button class="btn buy-now">Buy Now</button>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="product-card" data-skin="light" data-type="deluxe">
+                <img src="../Sex dolls pics/d3.webp" alt="Product 3">
+                <h3>Deluxe Edition</h3>
+                <p>The ultimate in premium craftsmanship.</p>
+                <button class="btn buy-now">Buy Now</button>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-skin="medium" data-type="deluxe">
+                <img src="../Sex dolls pics/d4.webp" alt="Product 3">
+                <h3>Deluxe Edition</h3>
+                <p>The ultimate in premium craftsmanship.</p>
+                <button class="btn buy-now">Buy Now</button>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-skin="medium" data-type="deluxe">
+                <img src="../Sex dolls pics/d5.webp" alt="Product 3">
+                <h3>Deluxe Edition</h3>
+                <p>The ultimate in premium craftsmanship.</p>
+                <button class="btn buy-now">Buy Now</button>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-skin="dark" data-type="deluxe">
+                <img src="../Sex dolls pics/d6.jpg" alt="Product 3">
+                <h3>Deluxe Edition</h3>
+                <p>The ultimate in premium craftsmanship.</p>
+                <button class="btn buy-now">Buy Now</button>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card" data-skin="dark" data-type="deluxe">
+                <img src="../Sex dolls pics/d7.webp" alt="Product 3">
+                <h3>Deluxe Edition</h3>
+                <p>The ultimate in premium craftsmanship.</p>
+                <button class="btn buy-now">Buy Now</button>
+                <button class="btn add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Erotic Dolls. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="products.js"></script>
+</body>
+</html>

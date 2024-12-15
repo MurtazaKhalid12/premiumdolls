@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #600; /* Deep Red */
+    padding: 15px 10%;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    color: #ff4040; /* Bold Hot Red */
+}
+
+/* About Us Section */
+.about-us {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #ff4040; /* Bold Erotic Red */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.ceo-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.ceo-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ff4040; /* Hot Red Border */
+}
+
+.ceo-details {
+    text-align: left;
+}
+
+.ceo-details h2 {
+    font-size: 2rem;
+    color: #ff4040; /* Hot Red */
+    margin-bottom: 10px;
+}
+
+.ceo-details p {
+    font-size: 1rem;
+    color: #ccc; /* Light Gray */
+}
+
+/* Company Details */
+.company-details {
+    max-width: 800px;
+    text-align: left;
+    margin: auto;
+}
+
+.company-details h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ff4040; /* Hot Red */
+}
+
+.company-details p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ddd; /* Light Gray */
+}
+
+/* Footer */
+footer {
+    background-color: #600; /* Deep Red */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+}
